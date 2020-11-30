@@ -1,7 +1,7 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiYW5kcmVhc25nOTciLCJhIjoiY2s1M2x1NWFoMDJiMjNrbjFnY3NwZGFnZyJ9.zHb9eE3laWbRLfXSxVRhRg';
 const script = document.createElement('script');
 
-script.src = 'http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp'
+script.src = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp'
 document.getElementsByTagName('head')[0].appendChild(script);
 
 let marker;
