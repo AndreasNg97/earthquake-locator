@@ -1,6 +1,6 @@
 {
-  "homepage": "https://AndreasNg97.github.io/earthquake-info",
-  "name": "info-earthquake",
+  "homepage": "https://AndreasNg97.github.io/earthquake-locator",
+  "name": "earthquake-locator",
   "version": "1.0.0",
   "description": "This is a simple web app showing locations of recent earthquakes.(The past 30 days) Click on the circles to get an array of info about the earthquake.",
   "main": "index.js",
