@@ -6,6 +6,3 @@ Click on the circles to get an array of info about the earthquake.
 ## Libraries
 *   mapbox v1.4.1
 *   moment v2.27.0
-
-## Bugs
-Earthquakes does not show up on github pages.
