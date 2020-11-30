@@ -1,0 +1,17 @@
+{
+  "homepage": "https://AndreasNg97.github.io/earthquake-info",
+  "name": "info-earthquake",
+  "version": "1.0.0",
+  "description": "This is a simple web app showing locations of recent earthquakes.(The past 30 days) Click on the circles to get an array of info about the earthquake.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
