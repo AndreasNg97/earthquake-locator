@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Info - Earthquake</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+</head>
+<body>
+    <div id="map">
+        <div id="eqInfo"></div>
+        <div id="filterContainer">
+            <p>Toggle Tectonic Layer</p>
+            <input type="checkbox" checked="true" id="toggleTectonic" onclick="showTectonic()">
+        </div>
+    </div>
+    </div>
+    
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
